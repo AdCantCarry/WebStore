@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Đăng nhập";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // hoặc null nếu bạn không dùng layout
+}
+
+@section Styles {
+    <link href="~/css/login.css" rel="stylesheet" />
+}
+<div class="login-container">
+    <h2>Đăng nhập</h2>
+
+    <form asp-action="Login" method="post">
+        <div>
+            <label>Email:</label>
+            <input type="email" name="email" required />
+        </div>
+        <div>
+            <label>Mật khẩu:</label>
+            <input type="password" name="password" required />
+        </div>
+        <button type="submit">Đăng nhập</button>
+    </form>
+
+    @if (ViewBag.Error != null)
+    {
+        <p>@ViewBag.Error</p>
+    }
+</div>
