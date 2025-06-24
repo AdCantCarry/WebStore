@@ -166,3 +166,4 @@ C:\Users\Acer\WebStore\obj\Debug\net8.0\refint\WebStore.dll
 C:\Users\Acer\WebStore\obj\Debug\net8.0\WebStore.pdb
 C:\Users\Acer\WebStore\obj\Debug\net8.0\WebStore.genruntimeconfig.cache
 C:\Users\Acer\WebStore\obj\Debug\net8.0\ref\WebStore.dll
+C:\Users\Acer\WebStore\obj\Debug\net8.0\WebStore.sourcelink.json
